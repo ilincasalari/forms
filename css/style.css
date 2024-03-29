@@ -1,0 +1,12 @@
+body{
+    background-color: azure;
+}
+form{
+    width: 400px;
+}
+input{
+    /* background-color: rgb(255, 249, 239); */
+    color: black;
+    padding: 5px;
+    border: none;
+}

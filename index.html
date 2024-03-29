@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3> Crearea unui fomular in pagina HTML</h3>
+    <form>
+        <fieldset>
+            <legend>Date personale</legend>
+            <label>Nume:</label>
+            <br>
+            <input type="text"><br>
+
+            <label>Prenume:</label>
+            <br>
+            <input type="text"><br>
+
+            <label>Data nasterii:</label>
+            <br>
+            <input type="date"><br>
+
+            <label>Password:</label>
+            <br>
+            <input type="password"><br>
+
+            <label>Hobby</label><br>
+            <input type="checkbox" id="h1">
+            <label for="h1"> Sport</label><br>
+
+            <input type="checkbox" id="h2">
+            <label for="h2"> Pictura</label><br>
+
+            <input type="checkbox" id="h3" >
+            <label for="h3"> Dansul</label><br>
+
+            <label>Gen</label><br>
+            <input type="radio" id="g1" name="gen">
+            <label for="g1"> Masculin</label>
+
+            <input type="radio" id="g2" name="gen">
+            <label for="g2"> Feminin</label><br>
+
+
+            <label>Localitatea</label><br>
+            <input list="loc" name="loc">
+            <datalist id="loc"> 
+              <option value="Recea">
+              <option value="Moseni">
+              <option value="Varatic">
+              <option value="Zaicani">
+            </datalist><br>
+
+            <label>Propuneri</label><br>
+            <textarea rows="5" cols="30" placeholder="Sugestii de activitati extrascolare"></textarea><br>
+
+            <input type="reset">
+            <input type="button" value="Accept"><br>
+
+            <label for="treapta ">Selectati treapta</label><br>
+            <select id="treapta" name="treapta">
+                <option></option>
+            <option>Gimnaziala</option>
+             <option>Liceala</option><br>
+              </select>
+
+             
+
+        </fieldset>
+    </form>
+</body>
+</html>
